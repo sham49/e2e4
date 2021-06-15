@@ -1,0 +1,30 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Arial", sans-serif;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+input{
+	margin: 10px 0;
+	padding: 5px;
+	border: 1px solid #D3D9DE;
+	outline: none;
+}
+
+input[type="submit"]{
+	padding: 5px;
+	cursor: pointer;
+}
+
+.error{
+	color: #B93B36;
+}
